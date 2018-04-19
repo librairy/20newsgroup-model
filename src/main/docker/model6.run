@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run -it --rm --name model6 -p 7780:7777 -e NLP_ENDPOINT=http://librairy.linkeddata.es/nlp-%% -e LIBRAIRY_API_USERS=user1:pwd1 librairy/20newsgroups:6
